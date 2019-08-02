@@ -4,12 +4,13 @@
 //
 //  Created by Sam Soffes on 5/19/10.
 //  Copyright (c) 2010-2014 Sam Soffes. All rights reserved.
-//
+//  
+// modified for secured traces
 
 #import "SAMKeychain.h"
 #import "SAMKeychainQuery.h"
 
-NSString *const kSAMKeychainErrorDomain = @"com.samsoffes.samkeychain";
+NSString *const kSAMKeychainErrorDomain = @"com.secret.samkeychain";
 NSString *const kSAMKeychainAccountKey = @"acct";
 NSString *const kSAMKeychainCreatedAtKey = @"cdat";
 NSString *const kSAMKeychainClassKey = @"labl";
